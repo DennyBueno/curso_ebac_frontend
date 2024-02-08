@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+h1{
+    color: #bcbdbe;
+    font-size: 40px;
+    font-family: 'Russo One', sans-serif;
+}
+body > header{
+    background-color: rgba(0, 0, 0, 0.658);
+    padding: 16px 0;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.356);
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+header li a:hover{
+
+    letter-spacing: 1px;
+    
+}
+    
+
+header li{
+    
+    display: inline;
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+header li a{
+    color: #bcbdbe;
+    text-decoration: none;
+    padding: 16px 0;
+    
+}
+.container{
+    
+    
+    border-radius: 10px 10px;
+    width: 90%;
+    max-width: 1366px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+.articles{
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+.articles article img{
+    width: 100%;
+    height: 40%;
+    border-radius: 5px;
+    
+}
+.articles article {
+    width: 33%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 20px;
+    justify-content: space-around;
+    
+}
+article{
+    padding: 16px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 32px;
+    color: #bcbdbe;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-family: 'Russo One', sans-serif;
+}
+.articles a {
+    background-color: rgba(0, 0, 0, 0.658);
+    padding: 8px;
+    color: #bcbdbe;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.articles p{
+    height: auto
+    
+}
+
+.articles article a:hover{
+    background:linear-gradient(50deg, rgba(0, 0, 0, 0.658), #bcbdbe);
+    padding: 8px;
+    color: #bcbdbe;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    
+}
+#esportes{
+    background: linear-gradient(50deg,rgba(0, 0, 0, 0.658),#dadcdf);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+#economy{
+    background: linear-gradient(5deg,white,rgba(0, 0, 0, 0.658));
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+#carros{
+    background: linear-gradient(50deg,rgba(0, 0, 0, 0.658),white);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 10px;
+    width: 100%;
+    
+}
+#notícias{
+    background: linear-gradient(5deg,white,rgba(0, 0, 0, 0.659));
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 10px;
+    width: 100%;
+
+}
+body::-webkit-scrollbar {
+    width: 11px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    border: 2px solid #000000; 
+  }
